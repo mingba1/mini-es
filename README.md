@@ -1,6 +1,6 @@
 # mini-es
 
-纯 Java 教学版 Elasticsearch：倒排 + BM25、稠密向量 / HNSW、RRF 混合检索，以及进程内分片 / 副本 / 协调节点 scatter-gather。
+纯 Java Elasticsearch：倒排 + BM25、稠密向量 / HNSW、RRF 混合检索，以及进程内分片 / 副本 / 协调节点 scatter-gather。
 
 不依赖 Lucene 或真实 ES。参数对齐本仓库旁的 [`hybrid-search-es`](../hybrid-search-es)：BM25 `k1=1.2` / `b=0.6`、title boost `3`、RRF `k=60`、HNSW `m=16`。
 
